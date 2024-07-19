@@ -12,7 +12,6 @@ final class SettingViewController: UIViewController {
     private lazy var collectionView = UICollectionView(frame: .zero, collectionViewLayout: createLayout())
     private var dataSource: UICollectionViewDiffableDataSource<SettingOptions, SettingItem>!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -58,9 +57,11 @@ private extension SettingViewController {
         let headerRegistration = UICollectionView.SupplementaryRegistration
         <UICollectionViewListCell>(elementKind: UICollectionView.elementKindSectionHeader) { supplementaryView, elementKind, indexPath in
             let section = self.dataSource.snapshot().sectionIdentifiers[indexPath.section]
+            
             var content = UIListContentConfiguration.groupedHeader()
             content.text = section.mainOptions
             content.textProperties.font = .boldSystemFont(ofSize: 20)
+            
             supplementaryView.contentConfiguration = content
         }
         
