@@ -15,6 +15,8 @@
 		D10DAAB92C491AB2001F25FF /* SettingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10DAAB82C491AB2001F25FF /* SettingOptions.swift */; };
 		D10DAABC2C491DCB001F25FF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D10DAABB2C491DCB001F25FF /* SnapKit */; };
 		D10DAABE2C49266C001F25FF /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10DAABD2C49266C001F25FF /* SettingItem.swift */; };
+		D1E8B12D2C4A3228009B3D81 /* ChattingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E8B12C2C4A3228009B3D81 /* ChattingData.swift */; };
+		D1E8B12F2C4A3342009B3D81 /* TravelTalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E8B12E2C4A3342009B3D81 /* TravelTalkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		D10DAAB22C4919FB001F25FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D10DAAB82C491AB2001F25FF /* SettingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingOptions.swift; sourceTree = "<group>"; };
 		D10DAABD2C49266C001F25FF /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
+		D1E8B12C2C4A3228009B3D81 /* ChattingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingData.swift; sourceTree = "<group>"; };
+		D1E8B12E2C4A3342009B3D81 /* TravelTalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTalkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				D10DAAB22C4919FB001F25FF /* Info.plist */,
 				D10DAAB82C491AB2001F25FF /* SettingOptions.swift */,
 				D10DAABD2C49266C001F25FF /* SettingItem.swift */,
+				D1E8B12C2C4A3228009B3D81 /* ChattingData.swift */,
+				D1E8B12E2C4A3342009B3D81 /* TravelTalkViewController.swift */,
 			);
 			path = "DiffableDataSource+ListConfiguration";
 			sourceTree = "<group>";
@@ -149,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D10DAAA92C4919FA001F25FF /* SettingViewController.swift in Sources */,
+				D1E8B12D2C4A3228009B3D81 /* ChattingData.swift in Sources */,
 				D10DAAB92C491AB2001F25FF /* SettingOptions.swift in Sources */,
+				D1E8B12F2C4A3342009B3D81 /* TravelTalkViewController.swift in Sources */,
 				D10DAAA52C4919F9001F25FF /* AppDelegate.swift in Sources */,
 				D10DAABE2C49266C001F25FF /* SettingItem.swift in Sources */,
 				D10DAAA72C4919FA001F25FF /* SceneDelegate.swift in Sources */,
